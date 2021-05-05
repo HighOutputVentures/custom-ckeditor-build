@@ -34,12 +34,11 @@ const BALLOON_EDITOR_PLUGINS = [
 	Autolink,
 	Essentials,
 	Link,
-	Mention,
 	Paragraph,
 ]
 
-class ClassicEditor extends ClassicEditorBase {}
-class BalloonEditor extends BalloonEditorBase {}
+class ClassicEditor extends ClassicEditorBase { }
+class BalloonEditor extends BalloonEditorBase { }
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
@@ -52,8 +51,7 @@ ClassicEditor.builtinPlugins = [
 	Heading,
 	HorizontalLine,
 	Image,
-	ImageInsert,
-	ImageUpload,
+	ImageInsert,	
 	Italic,
 	List,
 	ListStyle,
@@ -61,7 +59,6 @@ ClassicEditor.builtinPlugins = [
 	MediaEmbed,
 	PasteFromOffice,
 	Strikethrough,
-	TodoList,
 	Underline,
 	...BALLOON_EDITOR_PLUGINS,
 ];
@@ -71,4 +68,7 @@ BalloonEditor.builtinPlugins = BALLOON_EDITOR_PLUGINS
 export default {
 	ClassicEditor,
 	BalloonEditor,
+	Mention,
+	TodoList,
+	ImageUpload,
 };
