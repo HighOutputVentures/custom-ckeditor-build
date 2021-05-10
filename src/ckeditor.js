@@ -29,8 +29,6 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
-import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
-
 
 const BALLOON_EDITOR_PLUGINS = [
 	Autolink,
@@ -73,5 +71,4 @@ export default {
 	ImageUpload,
 	ListStyle,
 	Alignment,
-	Emoji
 };
