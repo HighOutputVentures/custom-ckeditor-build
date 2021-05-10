@@ -28,8 +28,8 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
-import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import Emojis from '@harrisonlucas/ckeditor5-emojis/src/emojis';
 
 const BALLOON_EDITOR_PLUGINS = [
 	Autolink,
@@ -53,7 +53,7 @@ ClassicEditor.builtinPlugins = [
 	Image,
 	ImageInsert,
 	Italic,
-	List,	
+	List,
 	Markdown,
 	MediaEmbed,
 	PasteFromOffice,
@@ -72,5 +72,5 @@ export default {
 	ImageUpload,
 	ListStyle,
 	Alignment,
-	Emoji
+	Emojis
 };
