@@ -39,8 +39,5 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  },
-  "dependencies": {
-    "@harrisonlucas/ckeditor5-emojis": "^1.0.0"
   }
 }
