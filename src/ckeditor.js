@@ -28,6 +28,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
+import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 
 const BALLOON_EDITOR_PLUGINS = [
@@ -42,7 +43,6 @@ class BalloonEditor extends BalloonEditorBase { }
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
-	Alignment,
 	Autoformat,
 	BlockQuote,
 	Bold,
@@ -51,10 +51,9 @@ ClassicEditor.builtinPlugins = [
 	Heading,
 	HorizontalLine,
 	Image,
-	ImageInsert,	
+	ImageInsert,
 	Italic,
-	List,
-	ListStyle,
+	List,	
 	Markdown,
 	MediaEmbed,
 	PasteFromOffice,
@@ -71,4 +70,7 @@ export default {
 	Mention,
 	TodoList,
 	ImageUpload,
+	ListStyle,
+	Alignment,
+	Emoji
 };

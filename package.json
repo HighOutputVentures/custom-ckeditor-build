@@ -40,5 +40,7 @@
   "scripts": {
     "build": "webpack --mode production"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@wwalc/ckeditor5-emoji": "^11.0.2"
+  }
 }
