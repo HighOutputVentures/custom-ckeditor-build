@@ -60,7 +60,6 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Strikethrough,
 	Underline,
-	TextTransformation,
 	...BALLOON_EDITOR_PLUGINS,
 ];
 
@@ -74,4 +73,5 @@ export default {
 	ImageUpload,
 	ListStyle,
 	Alignment,
+	TextTransformation
 };
