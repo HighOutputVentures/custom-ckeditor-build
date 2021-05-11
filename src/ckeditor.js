@@ -29,6 +29,8 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
+
 
 const BALLOON_EDITOR_PLUGINS = [
 	Autolink,
@@ -58,6 +60,7 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Strikethrough,
 	Underline,
+	TextTransformation,
 	...BALLOON_EDITOR_PLUGINS,
 ];
 

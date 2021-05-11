@@ -40,5 +40,9 @@
   "scripts": {
     "build": "webpack --mode production"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@ckeditor/ckeditor5-typing": "^27.1.0",
+    "install": "^0.13.0",
+    "npm": "^7.12.1"
+  }
 }
