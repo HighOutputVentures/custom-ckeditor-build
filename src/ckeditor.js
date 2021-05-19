@@ -30,7 +30,7 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-import s3Upload from 'ckeditor5-sss-upload/src/s3upload'
+import s3Upload from 'ckeditor5-sss-upload/src/s3upload.js'
 
 
 const BALLOON_EDITOR_PLUGINS = [
