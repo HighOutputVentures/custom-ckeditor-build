@@ -28,7 +28,6 @@
     "@ckeditor/ckeditor5-paragraph": "^27.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^27.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^27.0.0",
-    "ckeditor5-sss-upload": "^1.1.0",
     "css-loader": "^5.2.0",
     "postcss": "^8.2.8",
     "postcss-loader": "^4.2.0",
@@ -43,7 +42,6 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-typing": "^27.1.0",
-    "@phudak/ckeditor5-emoji": "^1.0.1",
     "install": "^0.13.0",
     "npm": "^7.12.1"
   }
