@@ -31,8 +31,8 @@ import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 // import s3Upload from 'ckeditor5-sss-upload/src/s3upload'
-import Emoji from '@phudak/ckeditor5-emoji/src/emoji'
-import EmojiPeople from "@phudak/ckeditor5-emoji/src/emoji-people";
+// import Emoji from '@phudak/ckeditor5-emoji/src/emoji'
+// import EmojiPeople from "@phudak/ckeditor5-emoji/src/emoji-people";
 
 
 const BALLOON_EDITOR_PLUGINS = [
@@ -77,7 +77,7 @@ export default {
 	ListStyle,
 	Alignment,
 	TextTransformation,
-	Emoji,
-	EmojiPeople
+	// Emoji,
+	// EmojiPeople
 	// s3Upload
 };
