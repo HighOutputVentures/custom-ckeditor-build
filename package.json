@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-typing": "^27.1.0",
+    "@phudak/ckeditor5-emoji": "^1.0.1",
     "install": "^0.13.0",
     "npm": "^7.12.1"
   }

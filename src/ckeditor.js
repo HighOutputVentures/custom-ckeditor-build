@@ -30,9 +30,11 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import Emoji from '@phudak/ckeditor5-emoji/src/emoji';
+import EmojiPeople from "@phudak/ckeditor5-emoji/src/emoji-people";
 
 const BALLOON_EDITOR_PLUGINS = [
-	Autolink,	
+	Autolink,
 	Essentials,
 	Link,
 	Paragraph,
@@ -73,4 +75,6 @@ export default {
 	ListStyle,
 	Alignment,
 	TextTransformation,
+	Emoji,
+	EmojiPeople
 };
