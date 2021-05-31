@@ -59,6 +59,8 @@ ClassicEditor.builtinPlugins = [
 	List,
 	Markdown,
 	MediaEmbed,
+	Video,
+	VideoUpload,
 	PasteFromOffice,
 	Strikethrough,
 	Underline,
@@ -77,6 +79,4 @@ export default {
 	Alignment,
 	TextTransformation,
 	S3Upload,
-	Video,
-	VideoUpload
 };
