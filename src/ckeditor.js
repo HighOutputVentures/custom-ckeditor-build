@@ -21,7 +21,6 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js';
-import Markdown from '@ckeditor/ckeditor5-markdown-gfm/src/markdown.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
@@ -57,10 +56,12 @@ ClassicEditor.builtinPlugins = [
 	ImageInsert,
 	Italic,
 	List,
-	Markdown,
 	PasteFromOffice,
 	Strikethrough,
 	Underline,
+	TextTransformation,
+	MediaEmbed,
+	Alignment,
 	...BALLOON_EDITOR_PLUGINS,
 ];
 
@@ -71,30 +72,9 @@ export default {
 	BalloonEditor,
 	Mention,
 	TodoList,
-	ImageUpload,
-	ListStyle,
-	Alignment,
-	TextTransformation,
 	S3Upload,
+	ListStyle,
+	ImageUpload,
 	Video,
 	VideoUpload,
-	Autoformat,
-	BlockQuote,
-	Bold,
-	Code,
-	CodeBlock,
-	Heading,
-	HorizontalLine,
-	Image,
-	ImageInsert,
-	Italic,
-	List,
-	Markdown,
-	PasteFromOffice,
-	Strikethrough,
-	Underline,
-	Autolink,
-	Essentials,
-	Link,
-	Paragraph,
 };
