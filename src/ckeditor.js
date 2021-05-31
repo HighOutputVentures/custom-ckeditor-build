@@ -31,7 +31,8 @@ import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import S3Upload from 'ckeditor5-sss-upload/src/s3upload'
-
+import Video from '@visao/ckeditor5-video/src/video'
+import VideoUpload from '@visao/ckeditor5-video/src/videoupload'
 
 const BALLOON_EDITOR_PLUGINS = [
 	Autolink,
@@ -75,5 +76,7 @@ export default {
 	ListStyle,
 	Alignment,
 	TextTransformation,
-	S3Upload
+	S3Upload,
+	Video,
+	VideoUpload
 };
